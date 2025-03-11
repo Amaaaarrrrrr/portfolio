@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1 {
+    text-align: center;
+    color: #0073e6;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    color: #0073e6;
+}
+.contact-info, .skills, .projects, .education, .experience, .soft-skills, .certifications, .achievements {
+    list-style: none;
+    padding: 0;
+}
+.contact-info li, .skills li, .projects li, .education li, .experience li, .soft-skills li, .certifications li, .achievements li {
+    margin-bottom: 10px;
+}
+.links a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+.projects a, .contact-info a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.projects a:hover, .contact-info a:hover {
+    color: #005bb5;
+}
+.skills, .soft-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skills li, .soft-skills li {
+    background: #0073e6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.stars {
+    color: gold;
+}
